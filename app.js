@@ -47,7 +47,7 @@ bot.dialog('/profile', [
 ]);
 
 bot.dialog('Help', function (session) {
-    session.endDialog('Hi! Let me know how I can help!');
+    session.endDialog('Hi! Let me know how I can help! You can ask things like "I need general information" or "Tell me about Azure security."');
 }).triggerAction({
     matches: 'help'
 });
